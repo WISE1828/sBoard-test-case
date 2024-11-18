@@ -1,46 +1,29 @@
-# Getting Started with Create React App
+## Test case для компании sBord.
+### Функционал
+- Проект представляет собой небольшое приложения, для отрисоки пути по средством `Canvas API`
+- При инициализации приложения на элементе канвас `Сanvas` отрисовываются два квадрата, между которыми так же отрисовывается путь  
+- Квадраты можно двигать с помощью мыши 
+- Алгорит отрисовки пути представлен в импортируемой функции `dataConvert`
+- Остальная логика по взаимодействию с `Canvas` представлена в компоненте `App`
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Проект доступен по ссылке 
+- https://s-board-test-case.vercel.app/
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Запуск проекта
+1. Убидитесь что у вас установленна `NodeJS`.
+```
+node -v
+```
+2. Установите зависимости
+```
+npm install
+```
+3. Запустите проект 
+```
+npm start
+```
+### PS
+- К сожалению покрытие алгоритма тестами не представленно 
+- Задание окозалось весьма затруднительным и возможно не удовлитворит команду, которая будет его проверять 
+- Большое спасибо за представленую возможность, в случае моего внезапного прохождения на следующий этап, готов приложить все усилия что бы изучаьб весь спектр технологий которая использует ваша команада,
+  Так как ваш проект для меня очень интересен!
